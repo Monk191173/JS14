@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Input</title>
+</head>
+
+<body>
+    <form class="main_block" name="f1">
+        <h1>Task move</h1>
+        <p>Значення переміщується з одного інпута в інший тільки якщо там є значення</p>
+        <input type="text" id="source">
+        <button type="button" name="move">move</button>
+        <input type="text" id="dest" readonly>
+
+
+        <h1>Task placeholder</h1>
+        <p>Значення переміщується в placeholder тільки якщо там є значення</p>
+        <input type="text" placeholder="" id="place">
+
+    </form>
+    <script src="js/input.js"></script>
+</body>
+
+</html>

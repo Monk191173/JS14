@@ -1,0 +1,169 @@
+/* body {
+    background-color: rgb(241, 239, 239);
+} */
+.main_menu {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.main_menu a {
+    text-decoration: none;
+    margin: 5px;
+}
+
+.main_menu a:hover {
+    background-color: aqua;
+}
+
+/*-----------------------------------------------*/
+.main_block {
+    width: 95vw;
+    height: 90vh;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+button,
+select {
+    width: 31%;
+    margin-right: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+button {
+    height: 35px;
+    background-color: rgb(18, 204, 18);
+    color: white;
+}
+
+button:focus {
+    border: 3px solid rgb(45, 252, 183);
+}
+
+button:hover {
+    background-color: rgb(8, 163, 163);
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+select:focus {
+    outline-color: cornflowerblue;
+}
+
+#place {
+    margin: 0;
+    width: 99.3%;
+}
+
+#dest {
+    margin: 0;
+}
+
+/*-------------------------------------*/
+.error {
+    display: none;
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    left: 0;
+    top: 35%;
+    border-radius: 10px;
+    background-color: rgba(108, 186, 250, 0.671);
+    color: blue;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+#signUp,
+#signOut {
+    width: 420px;
+    height: auto;
+    background-color: blanchedalmond;
+    margin: 10% auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form_head {
+    width: 440px;
+    height: 50px;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(49, 163, 112);
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    margin: -10px 0 20px -10px;
+}
+
+#f_name,
+#s_name,
+#e_mail,
+#sign,
+select {
+    margin: 0;
+    width: 99%;
+    margin-bottom: 20px;
+}
+
+#sign {
+    background-color: rgb(125, 165, 147);
+}
+
+label {
+    margin-bottom: 3px;
+}
+
+#signOut {
+    position: relative;
+    background-color: white;
+    border: 1px solid lightgray;
+    display: none;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    top: 5%;
+}
+
+.data {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 70px;
+}
+
+button[type='submit'] {
+    margin: 0 35%;
+    cursor: pointer;
+}
+
+.pidval {
+    width: 440px;
+    height: 50px;
+    margin: 10px 0 -10px -10px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 0 0 10px 10px;
+    background-color: rgb(49, 163, 112);
+}
+
+.pidval img {
+
+    width: 30px;
+    height: 30px;
+}

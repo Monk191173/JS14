@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Sign</title>
+</head>
+
+<body>
+	<div class="error"></div>
+	<form id="signUp" name="signUp">
+		<div class="form_head">Create your account</div>
+		<div>
+			<label for="f_name">First Name</label><br>
+			<input type="text" id="f_name" name="f_name" placeholder="type here..." required>
+
+		</div>
+		<div>
+			<label for="s_name">Second Name</label><br>
+			<input type="text" id="s_name" name="s_name" placeholder="type here..." required>
+		</div>
+		<div>
+			<label for="e_mail">Email address</label><br>
+			<input type="email" id="e_mail" name="e_mail" placeholder="enter email...(a@nnn)" required>
+		</div>
+		<div>
+			<input type="radio" name="sex" id="man" checked>man
+			<input type="radio" name="sex" id="woman">woman
+		</div><br>
+		<label for="pos">Position</label><br>
+		<select name="pos" id="pos">
+			<option value="Choose..." selected>Choose...</option>
+			<option value="Frontend">Frontend</option>
+			<option value="Backend">Backend</option>
+			<option value="QC/QA">QC/QA</option>
+		</select><br>
+		<input type="checkbox" id="check" name="check">I agree all statements in Terms of service<br><br>
+		<button type="button" value="Sign Up" id="sign" name="signButt" disabled>Sign Up</button>
+	</form>
+	<form id="signOut" name="signOut">
+		<div class="form_head"></div>
+		<img src="img/woman.jpg" class="logo" name="logo">
+		<div class="data">
+			<h1 id="ffssname" name="ffssname">Ivan Ivanov</h1>
+			<p id="eemail" name="eemail">123@ttt</p>
+			<p id="ppos" name="ppos">Frontend</p>
+		</div>
+		<hr>
+		<button type="submit">Sign Out</button>
+		<div class="pidval">
+			<img src="img/facebook.svg" alt="">
+			<img src="img/github.svg" alt="">
+			<img src="img/linkedin.svg" alt="">
+		</div>
+
+	</form>
+
+	<script src="js/sign.js"></script>
+</body>
+
+</html>
